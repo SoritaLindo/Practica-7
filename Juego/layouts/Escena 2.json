@@ -1,5 +1,5 @@
 {
-	"name": "Escena 1",
+	"name": "Escena 2",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -30,12 +30,12 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 191,
-						"y": 386,
+						"x": 382,
+						"y": 565,
 						"width": 600.682916,
 						"height": 603.866748,
-						"originX": 0.21996466431095407,
-						"originY": 0.1608084358523726,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -427,6 +427,96 @@
 					}
 				},
 				{
+					"type": "cpu",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 21,
+					"sid": 568439528431040,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": false
+							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1194,
+						"y": 793,
+						"width": 70.09204718500068,
+						"height": 83.64206107995307,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Grafica",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Default",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 22,
+					"sid": 574635617974829,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {
+						"ArrastrarYSoltar": {
+							"properties": {
+								"axes": "both",
+								"enabled": false
+							}
+						},
+						"Pegado": {
+							"properties": {
+								"destroy": false
+							}
+						}
+					},
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 1567,
+						"y": 793,
+						"width": 285.849602,
+						"height": 88.840123,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Texto",
 					"properties": {
 						"text": "¿Cómo se llama este elemento?",
@@ -783,7 +873,7 @@
 					"world": {
 						"x": 1583,
 						"y": 97,
-						"width": 106.42374154770846,
+						"width": 150,
 						"height": 22,
 						"originX": 0,
 						"originY": 0,
@@ -805,12 +895,12 @@
 						"live-preview": false
 					},
 					"uid": 23,
-					"sid": 599715019274280,
+					"sid": 468981167959193,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 599715019274280,
+						"sid": 468981167959193,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -819,12 +909,12 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 194,
-						"y": 628,
+						"x": 281,
+						"y": 577,
 						"width": 62.224672,
 						"height": 62.224672,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 0.516,
 						"color": [
 							1,
 							1,
@@ -845,12 +935,12 @@
 						"live-preview": false
 					},
 					"uid": 24,
-					"sid": 415149867041689,
+					"sid": 244625051154508,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
 					"instanceFolderItem": {
-						"sid": 415149867041689,
+						"sid": 244625051154508,
 						"expanded": true,
 						"folderName": "",
 						"indexInFolder": -1,
@@ -859,10 +949,10 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 217,
-						"y": 362,
-						"width": 49.224672,
-						"height": 42.224672,
+						"x": 268,
+						"y": 422,
+						"width": 62.224672,
+						"height": 62.224672,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -873,51 +963,6 @@
 						],
 						"angle": 0,
 						"zElevation": 0
-					}
-				},
-				{
-					"type": "cpu",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 21,
-					"sid": 568439528431040,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": false
-							}
-						},
-						"Pegado": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 1194,
-						"y": 793,
-						"width": 70.09204718500068,
-						"height": 83.64206107995307,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 1
 					}
 				},
 				{
@@ -962,52 +1007,7 @@
 							1
 						],
 						"angle": 0,
-						"zElevation": 2
-					}
-				},
-				{
-					"type": "Grafica",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Default",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 22,
-					"sid": 574635617974829,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"ArrastrarYSoltar": {
-							"properties": {
-								"axes": "both",
-								"enabled": false
-							}
-						},
-						"Pegado": {
-							"properties": {
-								"destroy": false
-							}
-						}
-					},
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 1567,
-						"y": 793,
-						"width": 285.849602,
-						"height": 88.840123,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 3
+						"zElevation": 1
 					}
 				}
 			],
@@ -1060,11 +1060,11 @@
 			}
 		}
 	],
-	"width": 3840,
-	"height": 2160,
+	"width": 1280,
+	"height": 960,
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 1"
+	"eventSheet": "Hoja de eventos 2"
 }

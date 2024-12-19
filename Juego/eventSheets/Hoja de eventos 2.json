@@ -1,5 +1,5 @@
 {
-	"name": "Hoja de eventos 1",
+	"name": "Hoja de eventos 2",
 	"events": [
 		{
 			"eventType": "variable",
@@ -324,13 +324,11 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-overlapping-at-offset",
+					"id": "is-overlapping-another-object",
 					"objectClass": "Placa_base",
-					"sid": 838008368216594,
+					"sid": 740170930056009,
 					"parameters": {
-						"object": "Comprobador_PlacaBase",
-						"offset-x": "0",
-						"offset-y": "0"
+						"object": "Comprobador_PlacaBase"
 					}
 				}
 			],
@@ -338,10 +336,10 @@
 				{
 					"id": "pin-to-object-imagepoint",
 					"objectClass": "Placa_base",
-					"sid": 871858926870924,
+					"sid": 959697685328419,
 					"behaviorType": "Pegado",
 					"parameters": {
-						"pin-to": "ATX_Case",
+						"pin-to": "Comprobador_PlacaBase",
 						"image-point": "1",
 						"angle": true,
 						"width-type": "no",
@@ -356,13 +354,11 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "is-overlapping-at-offset",
+					"id": "is-overlapping-another-object",
 					"objectClass": "psu",
-					"sid": 950672095749135,
+					"sid": 297585059825447,
 					"parameters": {
-						"object": "Comprobador_psu",
-						"offset-x": "0",
-						"offset-y": "0"
+						"object": "Comprobador_psu"
 					}
 				}
 			],
@@ -370,10 +366,10 @@
 				{
 					"id": "pin-to-object-imagepoint",
 					"objectClass": "psu",
-					"sid": 857593143607131,
+					"sid": 940634230236966,
 					"behaviorType": "Pegado",
 					"parameters": {
-						"pin-to": "ATX_Case",
+						"pin-to": "Comprobador_psu",
 						"image-point": "2",
 						"angle": true,
 						"width-type": "no",
@@ -383,6 +379,36 @@
 				}
 			],
 			"sid": 452599477058011
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "cpu",
+					"sid": 691045059320482,
+					"parameters": {
+						"object": "Placa_base"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "pin-to-object-imagepoint",
+					"objectClass": "cpu",
+					"sid": 203824554725572,
+					"behaviorType": "Pegado",
+					"parameters": {
+						"pin-to": "Placa_base",
+						"image-point": "1",
+						"angle": true,
+						"width-type": "no",
+						"height-type": "no",
+						"z": false
+					}
+				}
+			],
+			"sid": 912666263045292
 		},
 		{
 			"eventType": "block",
@@ -473,36 +499,6 @@
 				}
 			],
 			"sid": 389924217788095
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "is-overlapping-another-object",
-					"objectClass": "cpu",
-					"sid": 334921375435036,
-					"parameters": {
-						"object": "Placa_base"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "pin-to-object-imagepoint",
-					"objectClass": "cpu",
-					"sid": 644177785126709,
-					"behaviorType": "Pegado",
-					"parameters": {
-						"pin-to": "Placa_base",
-						"image-point": "1",
-						"angle": true,
-						"width-type": "no",
-						"height-type": "no",
-						"z": false
-					}
-				}
-			],
-			"sid": 442070687054206
 		}
 	],
 	"sid": 331551899129215

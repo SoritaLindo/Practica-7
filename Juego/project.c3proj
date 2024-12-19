@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 41600,
+	"savedWithRelease": 41602,
 	"name": "Práctica 6",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -81,12 +81,14 @@
 	},
 	"layouts": {
 		"items": [
+			"Escena 2",
 			"Escena 1"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
+			"Hoja de eventos 2",
 			"Hoja de eventos 1"
 		],
 		"subfolders": []

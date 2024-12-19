@@ -1,7 +1,7 @@
 {
-	"name": "Comprobador_PlacaBase",
+	"name": "ATX_Case",
 	"plugin-id": "Sprite",
-	"sid": 793402626976833,
+	"sid": 734322095825828,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -11,22 +11,22 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 1600,
+						"height": 1600,
 						"originX": 0.5,
 						"originY": 0.5,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
 						"fileType": "image/png",
-						"imageSpriteId": 80548,
+						"imageSpriteId": 6608574,
 						"useCollisionPoly": true,
 						"duration": 1,
 						"tag": ""
 					}
 				],
-				"sid": 526762590251133,
-				"name": "Animation 1",
+				"sid": 426643428649792,
+				"name": "Default",
 				"isLooping": false,
 				"isPingPong": false,
 				"repeatCount": 1,
