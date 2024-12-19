@@ -1,0 +1,32 @@
+{
+	"name": "Menú Final",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 923128843596589,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Reiniciar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 878372780164381,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 102619333860909
+		}
+	],
+	"sid": 382081177328554
+}
