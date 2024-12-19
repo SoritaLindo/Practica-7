@@ -1,0 +1,143 @@
+{
+	"name": "Hoja de eventos 1",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 422297401204588,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 795898913524035,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 511461105277994
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 366334970254849,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 984213162340950,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 283554125529060
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "Player",
+					"sid": 239256696648136,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "compare-speed",
+					"objectClass": "Player",
+					"sid": 945760989085096,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"comparison": 0,
+						"speed": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 843088725025416,
+					"parameters": {
+						"animation": "\"Quieto\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 909688950801952
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-on-floor",
+					"objectClass": "Player",
+					"sid": 388916427809833,
+					"behaviorType": "Plataforma"
+				},
+				{
+					"id": "compare-speed",
+					"objectClass": "Player",
+					"sid": 689273077241320,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"comparison": 4,
+						"speed": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 217386840417831,
+					"parameters": {
+						"animation": "\"Correr\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 130553418401631
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "Player",
+					"sid": 275251881333596,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 719944200840778,
+					"parameters": {
+						"animation": "\"Saltar\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 959529926535070
+		}
+	],
+	"sid": 993243639035285
+}

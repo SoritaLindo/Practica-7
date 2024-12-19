@@ -1,0 +1,77 @@
+{
+	"name": "Menú Final",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 923128843596589,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Reiniciar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 878372780164381,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 102619333860909
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 318168593024719,
+					"parameters": {
+						"object": "Reiniciar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "Reiniciar",
+					"sid": 685487673948823,
+					"parameters": {
+						"size-pt": "52"
+					}
+				}
+			],
+			"sid": 320630466539490
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 426037992294202
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "Reiniciar",
+					"sid": 781189687423511,
+					"parameters": {
+						"size-pt": "50"
+					}
+				}
+			],
+			"sid": 156358622957518
+		}
+	],
+	"sid": 382081177328554
+}
