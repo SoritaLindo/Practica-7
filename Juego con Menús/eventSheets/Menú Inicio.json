@@ -1,0 +1,77 @@
+{
+	"name": "Menú Inicio",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 325091543533402,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Comenzar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 766815301624243,
+					"parameters": {
+						"layout": "Escena 1"
+					}
+				}
+			],
+			"sid": 693102174437275
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "cursor-is-over-object",
+					"objectClass": "Mouse",
+					"sid": 147200860836274,
+					"parameters": {
+						"object": "Comenzar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "Comenzar",
+					"sid": 397942580625308,
+					"parameters": {
+						"size-pt": "52"
+					}
+				}
+			],
+			"sid": 562478745295907
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "else",
+					"objectClass": "System",
+					"sid": 467567465276145
+				}
+			],
+			"actions": [
+				{
+					"id": "set-font-size",
+					"objectClass": "Comenzar",
+					"sid": 149802250481164,
+					"parameters": {
+						"size-pt": "50"
+					}
+				}
+			],
+			"sid": 919374610933976
+		}
+	],
+	"sid": 561973097482040
+}
